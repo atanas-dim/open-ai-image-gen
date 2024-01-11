@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*  */
+}
+
+* {
+  overscroll-behavior: none;
+}
+
+html,
+body {
+  @apply w-full h-full;
+}
+
+button {
+  @apply hover:brightness-95 active:brightness-50;
+}
