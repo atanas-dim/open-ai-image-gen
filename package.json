@@ -1,5 +1,5 @@
 {
-  "name": "1325-molson-coors-madri-conectada-2024",
+  "name": "open-ai-image-gen",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@langchain/core": "^0.1.12",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "next": "14.0.4",
     "openai": "^4.24.3",
